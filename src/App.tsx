@@ -1,5 +1,12 @@
+import MainWindow from "./components/MainWindow.tsx";
+import MainMenu from "./components/MainMenu.tsx";
+
 function App() {
-    return (<> </>);
+    return (
+        <MainWindow>
+            <MainMenu/>
+        </MainWindow>
+    );
 }
 
 export default App
